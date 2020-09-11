@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 22:24:08</sys_created_on>
+        <sys_id>68bfcb632f0f9010a54a821df699b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_moody_matsunaga.x_58872_needit.needit_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_moody_matsunaga">2cbfcb632f0f9010a54a821df699b6e1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_68bfcb632f0f9010a54a821df699b6e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 22:24:08</sys_updated_on>
+        <sys_user_role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">9cbf476f2fcb9010a54a821df699b63e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_security_acl_role_68bfcb632f0f9010a54a821df699b6e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 22:24:08</sys_created_on>
+        <sys_id>68bfcb632f0f9010a54a821df699b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_moody_matsunaga.x_58872_needit.needit_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_moody_matsunaga">2cbfcb632f0f9010a54a821df699b6e1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_68bfcb632f0f9010a54a821df699b6e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 22:24:08</sys_updated_on>
+        <sys_user_role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">9cbf476f2fcb9010a54a821df699b63e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-361833293</payload_hash>
+        <record_name>x_58872_needit_moody_matsunaga.x_58872_needit.needit_user</record_name>
+        <reverted_from/>
+        <source>600a50c42f1bd010a54a821df699b64a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 22:27:20</sys_created_on>
+        <sys_id>450a50c42f1bd010a54a821df699b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747f47b54e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:27:20</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c10a50c4f41bd010032674546eddd9e3</update_guid>
+        <update_guid_history>c10a50c4f41bd010032674546eddd9e3:0,2337d8046b1bd0104d6c030ee9e84076:-600248843,9aa6d004d51bd01005172ca24fa76705:0,31f090001d1bd0101be584b51292467e:-600248843,6e6058cc34d7d010e46b0c049f8a319a:0,1282088424d7d010b80baaf09f3bc9a2:-600248843,b991c844ecd7d010eec4625324fc12d3:0,4380f3bb8087d0106d38aad080576600:-600248843,24bfcb636e0f90103f6a7ceed8cc1fe8:-1022381485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_58872_needit_moody_matsunaga.x_58872_needit.needit_user">1a7c10482f1bd010a54a821df699b67f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 22:38:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>b554410a17154774b1e9cadb730a30c4</sys_id>
+        <sys_metadata>68bfcb632f0f9010a54a821df699b6e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_moody_matsunaga.x_58872_needit.needit_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">2cbfcb632f0f9010a54a821df699b6e1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_68bfcb632f0f9010a54a821df699b6e5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_68bfcb632f0f9010a54a821df699b6e5">450a50c42f1bd010a54a821df699b6e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:38:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

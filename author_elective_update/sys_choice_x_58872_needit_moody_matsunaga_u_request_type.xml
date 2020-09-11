@@ -1,62 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_request_type" table="x_58872_needit_moody_matsunaga" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_request_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Human Resources</label>
-            <language>en</language>
-            <name>x_58872_needit_moody_matsunaga</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-10 23:18:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4f2c1b6b2f0f9010a54a821df699b6a3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-10 23:18:39</sys_updated_on>
-            <value>hr</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_request_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Facilities</label>
-            <language>en</language>
-            <name>x_58872_needit_moody_matsunaga</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-10 23:18:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8f2c1b6b2f0f9010a54a821df699b6a5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-10 23:18:39</sys_updated_on>
-            <value>facilities</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_request_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Legal</label>
-            <language>en</language>
-            <name>x_58872_needit_moody_matsunaga</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-10 23:18:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4b2c1b6b2f0f9010a54a821df699b6a7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-10 23:18:39</sys_updated_on>
-            <value>legal</value>
-        </sys_choice>
+    <sys_choice action="DELETE" field="u_request_type" table="x_58872_needit_moody_matsunaga" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_request_type</element>
@@ -82,7 +25,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-09-10 23:18:39</sys_created_on>
-            <sys_id>872c1b6b2f0f9010a54a821df699b6a4</sys_id>
+            <sys_id>550a90c42f1bd010a54a821df699b63a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_request_type</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -93,4 +36,49 @@
             <sys_updated_on>2020-09-10 23:18:39</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_choice_x_58872_needit_moody_matsunaga_u_request_type</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_request_type" table="x_58872_needit_moody_matsunaga" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_request_type</element><hint/><inactive>false</inactive><label>Director</label><language>en</language><name>x_58872_needit_moody_matsunaga</name><sequence>3</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-10 23:18:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>072c1b6b2f0f9010a54a821df699b6a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-10 23:18:39</sys_updated_on><value>director</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_request_type</element><name>x_58872_needit_moody_matsunaga</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-10 23:18:39</sys_created_on><sys_id>550a90c42f1bd010a54a821df699b63a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_request_type</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_choice_x_58872_needit_moody_matsunaga_u_request_type</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-10 23:18:39</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>550062662</payload_hash>
+        <record_name>Task.u_request_type</record_name>
+        <reverted_from/>
+        <source>240a98842f1bd010a54a821df699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 22:38:08</sys_created_on>
+        <sys_id>977c50482f1bd010a54a821df699b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747f5198930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:38:08</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>df7c5048111bd010141154153eb6304e</update_guid>
+        <update_guid_history>df7c5048111bd010141154153eb6304e:550062662,db7c5048331bd01039c9e5331964b74b:-1625161640,1b7c50480f1bd010fd09db64fd4e3e48:2103877713,510a90c4521bd01098c2bce54472db41:0,80471c04dd1bd0102f67773dbe11fc13:1955612652,8c471c04c31bd0108a0d3c8e1398f10f:550062662,4c471c049c1bd010f2f6a67b9f21640c:-1625161640,0c471c04231bd0108c7f7ea8c7829409:2103877713,62a6d004d51bd0105807353016679a7c:0,aef0d0006c1bd010546b747cd90e9129:1955612652,aaf0d000621bd0102c625bf245040e26:550062662,6af0d000d51bd0105042df37e3b95923:-1625161640,2af0d000531bd010b2b98b5f77f06220:2103877713,266058cce3d7d01032d383d7f736a1ec:0,c382488461d7d0106a6a5c4afab19428:1955612652,fe82488469d7d01062317a2451cf0124:550062662,be82488439d7d010bd690e6b998d1821:-1625161640,7e824884e7d7d010d2ef7e05c076321e:2103877713,ce910c44e5d7d010caf817eb4b98b04a:0,b380f3bb8087d0100ce9bfeb7d88dd95:1955612652,bf80f3bb1b87d010511933b1891b9d91:550062662,7f80f3bbb687d0108f34f785b3ee5a8e:-1625161640,3f80f3bbb387d010dd71e879c6b3568b:2103877713,4f2c1b6bc10f9010e88080e484718eab:64488751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 22:38:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>550a90c42f1bd010a54a821df699b63a</sys_id>
+        <sys_metadata>550a90c42f1bd010a54a821df699b63a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_request_type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_58872_needit_moody_matsunaga_u_request_type</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_58872_needit_moody_matsunaga_u_request_type">977c50482f1bd010a54a821df699b64f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:38:08</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
